@@ -16,4 +16,4 @@ back_naver = front_naver.replace(".com", "")
 
 password = back_naver[:3] + str(len(back_naver)) + str(back_naver.count("e")) + "!"
 
-print(password)  # nav51!
+print("{0}의 비밀번호는 {1} 입니다." .format(back_naver, password))  # nav51!
